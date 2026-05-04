@@ -11,3 +11,4 @@ This is a basic Python script that simulates log monitoring and detects suspicio
 
 ## Purpose
 This project demonstrates basic security monitoring concepts used in SOC environments.
+This simulates basic SOC log monitoring by detecting suspicious login failures.
