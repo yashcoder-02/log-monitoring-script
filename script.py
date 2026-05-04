@@ -1,5 +1,6 @@
-logs = ["login success", "failed login", "error", "failed login"]
+# Log Monitoring Script
 
-for log in logs:
-    if "failed" in log:
-        print("Alert: Suspicious activity ->", log)
+with open("logs.txt", "r") as file:
+    for line in file:
+        if "failed" in line.lower():
+            print("Alert: Suspicious activity ->", line.strip())
